@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src = "../assets/androidjs.js"></script>
+
+</head>
+<body>
+    <h1>Hello from Android JS 333</h1>
+
+    <div id="out">
+        XXXX
+    </div>
+</body>
+<script>
+    console.log(app);
+
+    app.toast.show("nice it is working fine");
+
+    document.getElementById('out').innerHTML = "...";
+
+    front.send('Hello', 'Hello Android jS');
+
+    document.getElementById('out').innerHTML = "Hello send";
+
+    front.on('print', function(msg){
+        document.getElementById('out').innerHTML = "Hello send";
+        console.log(msg);
+    })
+</script>
+</html>
