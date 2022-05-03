@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+
 rm -rf ~/.androidjs/cache/sdk-static
 androidjs build
 
